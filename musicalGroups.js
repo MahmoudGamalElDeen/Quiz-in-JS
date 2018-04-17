@@ -1,6 +1,5 @@
 // change the value of `musicians` to test your conditional statements
 var musicians = 0;
-
 if ( musicians <= 0 ) {
     console.log("not a group");
 } else if ( musicians === 1 ) {
