@@ -1,0 +1,16 @@
+// change the values of `eatsPlants` and `eatsAnimals` to test your code
+var eatsPlants = false;
+var eatsAnimals = true;
+
+var category = eatsPlants && eatsAnimals ? "omnivore": eatsPlants ? "herbivore" : eatsAnimals ? "carnivore" : undefined; 
+
+console.log(category); 
+if (eatsPlants && eatsAnimals =  true) {
+	console.log("omnivore");
+} else if ( eatsPlants === true) {
+	console.log("herbivore");
+} else if (eatsAnimals) {
+	console.log("carnivore");
+} else {
+	console.log("undefined");
+}
